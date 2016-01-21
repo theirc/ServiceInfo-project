@@ -102,4 +102,21 @@ djangocms-column==1.6.0
 git+git://github.com/aldryn/aldryn-video.git@0.5.1#egg=aldryn-video
   jsonfield==1.0.3
   micawber==0.3.3
+# missing Py3K and custom user model fixes: aldryn-forms==2.0.3
+git+git://github.com/aldryn/aldryn-forms.git@f9089d2a00ecc9dcd9ac216350c6c248157e4cd6#egg=aldryn-forms
+  django-emailit==0.2.2
+    premailer==2.9.6
+      cssselect==0.9.1
+      cssutils==1.0.1
+    django-absolute==0.3
+  # djangocms-text-ckeditor
+  django-simple-captcha==0.5.1
+    # Pillow
+  # Needs simple Py3K fix others have posted: django-tablib==3.1.1
+  git+git://github.com/caktus/django-tablib.git@ServiceInfo/3.1.1-plus-additional-fixes#egg=django-tablib
+    tablib==0.10.0
+  # Pillow
+  # django-filer
+  django-sizefield==0.9
+  # aldryn-boilerplates
 elasticsearch==2.1.0

@@ -273,6 +273,11 @@ INSTALLED_APPS = (
     'standard_form',
     'haystack',
     'service_info_cms',
+    'absolute',
+    'aldryn_forms',
+    'aldryn_forms.contrib.email_notifications',
+    'captcha',
+    'emailit',
     # End Django CMS
     # Load after easy_thumbnails so that its thumbnail template tag (unused
     # in this project) is hidden.
